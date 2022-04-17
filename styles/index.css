@@ -1,0 +1,30 @@
+#navbar{
+    display: flex;
+    flex-direction: row-reverse;
+    padding-right: 30px;
+    margin-top: 1px;
+    line-height: 1px;
+}
+#navbar a{
+    padding-left: 10px;
+    text-decoration: none;
+
+}
+#navbar>a:hover{
+    cursor: pointer;
+    
+}
+#movies{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: auto;
+    gap: 15px;
+    margin-top: 20px;
+}
+#movies img{
+    width: 250px;
+    height: 200px;
+}
+#slideshow{
+    margin-top: 20px;
+}

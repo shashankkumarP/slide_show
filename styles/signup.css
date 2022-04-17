@@ -1,0 +1,16 @@
+#navbar{
+    display: flex;
+    flex-direction: row-reverse;
+    padding-right: 30px;
+    margin-top: 1px;
+    line-height: 1px;
+}
+#navbar a{
+    padding-left: 10px;
+    text-decoration: none;
+
+}
+#navbar>a:hover{
+    cursor: pointer;
+    
+}
